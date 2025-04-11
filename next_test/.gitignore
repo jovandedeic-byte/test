@@ -39,3 +39,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Ignore everything outside the next_test folder
+/*
+!/next_test/
+
+# Ignore unnecessary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.lnk
+
+# Ignore Node modules
+node_modules/
+
+# Ignore build files
+/build
+/dist
+
+# Ignore environment files
+.env
